@@ -830,7 +830,8 @@ PRICING ↓
     border-bottom: 2px solid rgb(102, 126, 234);
 }
 
-.plan:nth-child(1) .plan__middle, .plan:nth-child(3) .plan__middle {
+.plan:nth-child(1) .plan__middle,
+.plan:nth-child(3) .plan__middle {
     border-top: 2px solid rgb(229, 231, 235);
     border-bottom: 2px solid rgb(229, 231, 235);
 }
@@ -1347,9 +1348,11 @@ MOBILE RESPONSIVENESS ↓
     .section__title {
         font-size: 36px;
     }
+
     .section__para {
         font-size: 16px;
     }
+
     .btn__menu {
         display: block;
     }
@@ -1612,22 +1615,23 @@ MOBILE RESPONSIVENESS ↓
         margin-top: 0;
     }
 
-    .testimonial__bottom{
+    .testimonial__bottom {
         flex-direction: column;
         align-items: center;
         padding-top: 4px;
     }
 
     .testimonial__profile {
-       flex-direction: column;
-       align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
 
     .testimonial__details {
         margin-left: 0;
         margin-top: 8px;
     }
-    .testimonial__buttons{
+
+    .testimonial__buttons {
         margin-top: 24px;
     }
 
