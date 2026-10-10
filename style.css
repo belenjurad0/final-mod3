@@ -1345,6 +1345,10 @@ MOBILE RESPONSIVENESS ↓
 
 @media (max-width: 1024px) {
 
+    .header__customers {
+        padding: 16px 0;
+        margin: auto;
+    }
     .section__title {
         font-size: 36px;
     }
