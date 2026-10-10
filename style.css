@@ -15,7 +15,7 @@ body {
 }
 
 .row {
-    width: 100%;
+    width: 98%;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -35,7 +35,7 @@ body {
     color: #6415ff;
 }
 
-section {
+#section {
     padding: 0 32px;
 }
 
@@ -1422,6 +1422,10 @@ MOBILE RESPONSIVENESS ↓
 
 @media(max-width: 768px) {
 
+    .section__title {
+        text-align: center;
+    }
+    
     .section__para {
         font-size: 14px;
     }
@@ -1560,6 +1564,20 @@ MOBILE RESPONSIVENESS ↓
         padding: 80px 0;
     }
 
+    .header__description h2 {
+        text-align: center;
+        width: 70%;
+    }
+
+    .header__description--para {
+        text-align: center;
+        width: 70%;
+    }  
+
+    .header__customers {
+        width: 80%;
+        margin-bottom: 24px;
+    }
     .nav__logo {
         margin: 8px 0;
         padding-bottom: 4px;
@@ -1647,6 +1665,20 @@ MOBILE RESPONSIVENESS ↓
     .testimonial__btn svg {
         width: 30px;
         height: 30px;
+    }
+
+    .start__title {
+        text-align: center;
+    }
+    .start__buttons {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .start__btn {
+        margin: auto;
+        margin-bottom: 8px;
     }
 
     .footer__columns {
